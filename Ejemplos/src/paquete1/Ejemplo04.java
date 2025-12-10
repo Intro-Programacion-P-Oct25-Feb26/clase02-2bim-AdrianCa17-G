@@ -22,6 +22,9 @@ public class Ejemplo04 {
         int[] arreglo1 = {1000, 1, 2, 2000, 300};
         // System.out.println(arreglo1.length);
         // arreglo1[2] = 1000;
+        /* .lenght define el numero de elementos que va a tener el arreglo
+         ejemplo: arreglo1.length va a tener un total de 5 elementos pues
+         es lo que posee el arreglo*/
         for (int i = 0; i < arreglo1.length; i++) {
             System.out.printf("Subíndice o Índice %d, con valor %d\n",
                     i, arreglo1[i]);
